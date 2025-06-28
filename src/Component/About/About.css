@@ -94,7 +94,7 @@ p{
 }
 
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:1230px) {
     .aboutdiscription {
         padding-left: 20px;
         padding-right: 20px;
@@ -118,9 +118,11 @@ p{
 
     .divaboutskills {
         flex-direction: column;
+        margin: auto;
     }
-
+    
     .divmaintenance {
+        margin: auto;
         padding-left: 65px;
     }
     p{

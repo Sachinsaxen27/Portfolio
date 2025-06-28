@@ -10,8 +10,7 @@ function Home() {
         <>
             <div className='introdiv'>
                 <div className='introfirst'>
-                    <div>
-
+                    <div className='myintro'>
                         <h1 className='homeheadingdiv'>
                             Hi, I am
                         </h1>

@@ -62,7 +62,7 @@ p {
 }
 
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:1230px) {
     .projectdetials {
         margin-top: 20px;
         /* margin-bottom: 20px; */

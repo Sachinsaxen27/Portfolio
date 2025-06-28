@@ -64,33 +64,40 @@ p {
 .divlearningskills {
     width: fit-content;
     display: flex;
+    margin: auto;
 }
-.divotherskillsknow{
+
+.divotherskillsknow {
     width: fit-content;
     display: flex;
+    margin: auto;
 
 }
-@media screen and (max-width:430px) {
+
+@media screen and (max-width:1230px) {
     .skillsoptions {
-        width: auto;
         margin-top: 40px;
-        /* margin-left: 20px; */
+        width: -webkit-fill-available;
     }
-    .skillsoptions h3{
+
+    .skillsoptions h3 {
         margin-left: 20px;
     }
+
     .divskilliuse {
         display: flex;
-        margin-left: 50px;
-        width: calc(100vw - 3.5rem);
     }
 
     .divskillilearn {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        width: calc(100vw - 3.5rem);
+        width: -webkit-fill-available;
         margin-bottom: 20px;
+    }
+
+    .divskillilearn h3 {
+        padding-left: 20px;
     }
 
     .divotherskill {
@@ -98,14 +105,18 @@ p {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        width: calc(100vw - 3.5rem);
+        width: -webkit-fill-available;
+    }
+
+    .divotherskill h3 {
+        padding-left: 20px;
     }
 
     .divlearningskills {
-        width: 90vw;
+        margin: auto;
     }
 
     .divotherskillsknow {
-        width: 90vw;
+        margin: auto;
     }
 }

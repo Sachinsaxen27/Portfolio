@@ -16,7 +16,7 @@ function Contact() {
                     Contact
                 </div>
                 <br />
-                <p>Have a question or want to work together? Feel free to reach out — I'm always open to new opportunities.</p>
+                <p style={{margin:'auto'}} >Have a question or want to work together? Feel free to reach out — I'm always open to new opportunities.</p>
                 <div style={{ display: "flex", justifyContent: 'center', marginTop: '20px' }}>
                     <img src={image} alt="" />
                 </div>
@@ -65,7 +65,7 @@ function Contact() {
                         </div>
                     </div>
                     <div>
-                        <p style={{ fontSize: "10px" }}>@ 2023 Sachin Saxena All Rights Reserved</p>
+                        <p style={{ fontSize: "10px", margin:'auto' }}>@ 2023 Sachin Saxena All Rights Reserved</p>
                     </div>
                 </div>
             </div>

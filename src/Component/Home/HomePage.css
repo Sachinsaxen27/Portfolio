@@ -60,10 +60,15 @@ h3 {
 .homeparadiv {
     font-size: 14px;
     opacity: 0.5;
-    /* style={{ fontSize: '14px', opacity: '0.5' }} */
 }
 
-@media screen and (max-width:430px) {
+.myintro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width:1230px) {
     .introdiv {
         flex-direction: column-reverse;
         justify-content: center;
@@ -73,6 +78,11 @@ h3 {
 
     .introsecond {
         margin-bottom: 20px;
+    }
+
+    .introsecond img {
+        width: 20rem;
+        margin: auto;
     }
 
     .homeheadingdiv {
@@ -87,7 +97,7 @@ h3 {
 
     .homeparadiv {
         font-size: 10px;
-        margin-left: 52px;
         margin-bottom: 20px;
+        text-align: center;
     }
 }
