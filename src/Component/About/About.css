@@ -1,0 +1,114 @@
+.aboutDiv {
+    background-color: #dddddd;
+    padding-top: 50px;
+}
+
+.divabout {
+    border: 5px solid;
+    padding: 15px;
+    width: fit-content;
+    letter-spacing: 5px;
+    display: flex;
+    font-weight: 600;
+    justify-self: center;
+    margin-bottom: 30px;
+}
+
+.divexplore {
+    margin-top: 30px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    text-transform: uppercase;
+    width: fit-content;
+    display: flex;
+    justify-self: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    letter-spacing: 4px;
+    font-weight: 900;
+}
+
+.divlines {
+    display: flex;
+    justify-self: center;
+    margin-top: 50px;
+}
+
+.divsectionfordetails {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.divdesign {
+    background-image: url('../assets/desing.png');
+    background-repeat: no-repeat;
+    padding: 10px;
+    padding-left: 50px;
+    font-size: 15px;
+    width: fit-content;
+    padding-right: 10px;
+    margin-right: 50px;
+}
+
+.divdesign h1 {
+    margin-bottom: 10px;
+}
+
+.divdevelopment {
+    background-image: url('../assets/development.png');
+    background-repeat: no-repeat;
+    padding: 10px;
+    padding-left: 60px;
+    font-size: 15px;
+    width: fit-content;
+    padding-right: 10px;
+    margin-left: 50px;
+}
+
+.divdevelopment h1 {
+    margin-bottom: 10px;
+}
+.divaboutskills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.divmaintenance {
+    margin-top: 20px;
+    background-image: url('../assets/maintenance.png');
+    background-repeat: no-repeat;
+    padding: 10px;
+    padding-left: 80px;
+    font-size: 15px;
+    width: fit-content;
+    margin: auto;
+    /* padding-top: 10px; */
+
+}
+
+.divmaintenance h1 {
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width:430px) {
+    .aboutdiscription {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .divlines {
+        margin-top: 20px;
+    }
+    .divdevelopment {
+        padding-right: 0px;
+        margin-left: 40px;
+        padding-left: 10px;
+    }
+    .divaboutskills{
+        flex-direction: column;
+    }
+    .divmaintenance{
+        padding-left: 50px;
+    }
+}

@@ -1,0 +1,20 @@
+.navbardiv {
+
+    background-color: rgb(67, 67, 67)
+}
+
+.navlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navlist li {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.navlist li Link {
+    text-decoration: none;
+    color: white;
+}
