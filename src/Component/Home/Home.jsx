@@ -29,8 +29,8 @@ function Home() {
             </div>
             <About/>
             <Skill/>
-            {/* <Work/> */}
-            {/* <Contact/> */}
+            <Work/>
+            <Contact/>
         </>
     )
 }
