@@ -72,8 +72,9 @@ p {
 }
 @media screen and (max-width:430px) {
     .skillsoptions {
+        width: auto;
         margin-top: 40px;
-        margin-left: 20px;
+        /* margin-left: 20px; */
     }
 
     .divskilliuse {
