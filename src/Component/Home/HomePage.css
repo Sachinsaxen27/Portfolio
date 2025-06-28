@@ -50,16 +50,19 @@ h3 {
     font-size: 50px;
     margin-bottom: 20px;
 }
-.homenamediv{
+
+.homenamediv {
     /* style={{ fontSize: "40px",marginBottom:"10px"}} */
     font-size: 40px;
     margin-bottom: 10px;
 }
-.homeparadiv{
+
+.homeparadiv {
     font-size: 14px;
     opacity: 0.5;
     /* style={{ fontSize: '14px', opacity: '0.5' }} */
 }
+
 @media screen and (max-width:430px) {
     .introdiv {
         flex-direction: column-reverse;
@@ -81,7 +84,10 @@ h3 {
         font-size: 20px;
         margin-bottom: 5px;
     }
-    .homeparadiv{
-        font-size: 10px; 
+
+    .homeparadiv {
+        font-size: 10px;
+        margin-left: 52px;
+        margin-bottom: 20px;
     }
 }

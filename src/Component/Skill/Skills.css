@@ -76,7 +76,9 @@ p {
         margin-top: 40px;
         /* margin-left: 20px; */
     }
-
+    .skillsoptions h3{
+        margin-left: 20px;
+    }
     .divskilliuse {
         display: flex;
         margin-left: 50px;
