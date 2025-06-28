@@ -20,16 +20,21 @@ function Home() {
                         <p className='homeparadiv' >
                             MERN Stack Developer / Web Developer
                         </p>
+                        <button type="button" class="btn btn-warning my-2">
+                            <a href="/content.pdf" download style={{textDecoration:"none",color:'black'}}>
+                                Download CV
+                            </a>
+                        </button>
                     </div>
                 </div>
                 <div className='introsecond'>
                     <img src={image} alt="user" />
                 </div>
             </div>
-            <About/>
-            <Skill/>
-            <Work/>
-            <Contact/>
+            <About />
+            <Skill />
+            <Work />
+            <Contact />
         </>
     )
 }
