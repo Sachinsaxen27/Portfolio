@@ -23,6 +23,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100px;
     justify-content: space-around;
 }
 
@@ -36,22 +37,39 @@ p {
 }
 
 .skillsoptions {
-    margin-left: 12rem;
+    width: 60rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
 .divskillilearn {
-    width: 62rem;
+    width: 60rem;
     margin-bottom: 20px;
 }
 
 .divotherskill {
-    width: 62rem;
+    width: 60rem;
     margin-bottom: 20px;
 }
 
+.divskilliuse {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+    margin: auto;
+}
+
+.divlearningskills {
+    width: fit-content;
+    display: flex;
+}
+.divotherskillsknow{
+    width: fit-content;
+    display: flex;
+
+}
 @media screen and (max-width:430px) {
     .skillsoptions {
         margin-top: 40px;

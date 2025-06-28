@@ -26,40 +26,40 @@ function Skill() {
                 </div>
                 <div className="skillsoptions" >
                     <h3>USING NOW:</h3>
-                    <div className="divskilliuse row row-cols-4">
-                        <div className="usingskills col">
+                    <div className="divskilliuse ">
+                        <div className="usingskills ">
                             <img src={image15} alt="" />
                             <p>REACT</p>
                         </div>
-                        <div className="usingskills col">
+                        <div className="usingskills ">
                             <img src={image12} alt="" />
                             <p>NODE</p>
                         </div>
-                        <div className="usingskills col">
+                        <div className="usingskills ">
                             <img src={image6} alt="" />
                             <p>EXPRESS</p>
                         </div>
-                        <div className="usingskills col">
+                        <div className="usingskills ">
                             <img src={image10} alt="" />
                             <p>MONGODB</p>
                         </div>
-                        <div className="usingskills col">
+                        <div className="usingskills ">
                             <img src={image8} alt="" />
                             <p>HTML5</p>
                         </div>
-                        <div className="usingskills col">
+                        <div className="usingskills ">
                             <img src={image5} alt="" />
                             <p>CSS3</p>
                         </div>
-                        <div className="usingskills col">
+                        <div className="usingskills ">
                             <img src={image9} alt="" />
                             <p>JAVASCRIPT</p>
                         </div>
-                        <div className="usingskills col">
+                        <div className="usingskills ">
                             <img src={image7} alt="" />
                             <p>GIT</p>
                         </div>
-                        <div className="usingskills col">
+                        <div className="usingskills ">
                             <img src={image3} alt="" />
                             <p>BOOTSTRAP</p>
                         </div>
@@ -67,12 +67,12 @@ function Skill() {
                     </div>
                 <div className='divskillilearn'>
                     <h3>LEARNING:</h3>
-                    <div className="row justify-content-around divlearningskills">
-                        <div className="usingskills col-4">
+                    <div className="divlearningskills">
+                        <div className="usingskills">
                             <img src={image11} alt="" />
                             <p>MYSQL</p>
                         </div>
-                        <div className="usingskills col-4">
+                        <div className="usingskills">
                             <img src={image14} alt="" />
                             <p>REACT NATIVE</p>
                         </div>
@@ -80,12 +80,12 @@ function Skill() {
                 </div>
                 <div className='divotherskill' >
                     <h3>OTHER SKILLS:</h3>
-                    <div className="row justify-content-around divotherskillsknow">
-                        <div className="usingskills col-4">
+                    <div className=" divotherskillsknow">
+                        <div className="usingskills">
                             <img src={image4} alt="" />
                             <p>C</p>
                         </div>
-                        <div className="usingskills col-4">
+                        <div className="usingskills">
                             <img src={image13} alt="" />
                             <p>PYTHON</p>
                         </div>
