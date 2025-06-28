@@ -18,3 +18,12 @@
     text-decoration: none;
     color: white;
 }
+
+@media screen and (max-width:430px) {
+    .navbardropdown {
+        margin: 0px;
+    }
+    .navlist{
+        flex-direction: column;
+    }
+}

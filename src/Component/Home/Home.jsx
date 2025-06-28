@@ -9,7 +9,6 @@ function Home() {
     return (
         <>
             <div className='introdiv'>
-
                 <div className='introfirst'>
                     <div>
 

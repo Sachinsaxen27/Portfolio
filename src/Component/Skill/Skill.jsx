@@ -17,14 +17,14 @@ import image15 from '../assets/react-js.png'
 function Skill() {
     return (
         <>
-            <div className='skillsBlock'>
+            <div className='skillsBlock' >
                 <div>
                     <img src={image2} alt="line" style={{ marginTop: "40px", width: '8rem' }} />
                 </div>
-                <div className='text-center divskills'>
+                <div className='text-center divskills' >
                     SKILLS
                 </div>
-                <div className="skillsoptions">
+                <div className="skillsoptions" >
                     <h3>USING NOW:</h3>
                     <div className="divskilliuse row row-cols-4">
                         <div className="usingskills col">
