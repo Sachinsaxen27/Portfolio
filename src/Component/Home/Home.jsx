@@ -18,7 +18,7 @@ function Home() {
                         <h3 className='homenamediv'>
                             Sachin Saxena
                         </h3>
-                        <p className='homeparadiv' style={{ fontSize: '14px', opacity: '0.5' }}>
+                        <p className='homeparadiv' >
                             MERN Stack Developer / Web Developer
                         </p>
                     </div>
@@ -29,8 +29,8 @@ function Home() {
             </div>
             <About/>
             <Skill/>
-            <Work/>
-            <Contact/>
+            {/* <Work/> */}
+            {/* <Contact/> */}
         </>
     )
 }

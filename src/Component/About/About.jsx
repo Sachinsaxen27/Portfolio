@@ -24,16 +24,22 @@ function About() {
                     <div className='divaboutskills' >
                         <div className='divdesign'>
                             <h1>DESIGN</h1>
-                            I can design the site based on your needs and suggestions. I can also design the site from scratch and consult you during the job.
+                            <p>
+                                I can design the site based on your needs and suggestions. I can also design the site from scratch and consult you during the job.
+                            </p>
                         </div>
                         <div className='divdevelopment'>
                             <h1>DEVELOPMENT</h1>
-                            I build fast, responsive, and scalable websites using modern technologies like  React, Node.js, and MongoDB.From interactive UIs to secure backend systems, I turn designs into fully functional web applications
+                            <p>
+                                I build fast, responsive, and scalable websites using modern technologies like  React, Node.js, and MongoDB.From interactive UIs to secure backend systems, I turn designs into fully functional web applications
+                            </p>
                         </div>
                     </div>
                     <div className='divmaintenance'>
                         <h1>MAINENANCE</h1>
-                        I offer ongoing support to keep your website running smoothly—whether it's fixing bugs, updating features, optimizing performance, or adapting your site to new needs as they arise
+                        <p>
+                            I offer ongoing support to keep your website running smoothly—whether it's fixing bugs, updating features, optimizing performance, or adapting your site to new needs as they arise
+                        </p>
                     </div>
                 </div>
             </div>

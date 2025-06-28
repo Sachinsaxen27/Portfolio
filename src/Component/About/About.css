@@ -13,7 +13,9 @@
     justify-self: center;
     margin-bottom: 30px;
 }
-
+p{
+    width: 31rem;
+}
 .divexplore {
     margin-top: 30px;
     border-left: 2px solid;
@@ -85,8 +87,6 @@
     font-size: 15px;
     width: fit-content;
     margin: auto;
-    /* padding-top: 10px; */
-
 }
 
 .divmaintenance h1 {
@@ -103,7 +103,6 @@
     .divlines {
         margin-top: 20px;
     }
-
     .divdesign {
         margin-bottom: 10px;
         padding-left: 65px;
@@ -123,5 +122,9 @@
 
     .divmaintenance {
         padding-left: 65px;
+    }
+    p{
+        width: 20rem;
+        text-align: justify;
     }
 }
