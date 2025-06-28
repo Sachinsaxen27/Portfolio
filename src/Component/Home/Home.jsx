@@ -12,13 +12,13 @@ function Home() {
                 <div className='introfirst'>
                     <div>
 
-                        <h1 style={{ fontSize: '50px',marginBottom:"20px"}}>
+                        <h1 className='homeheadingdiv'>
                             Hi, I am
                         </h1>
-                        <h3 style={{ fontSize: "40px",marginBottom:"10px"}}>
+                        <h3 className='homenamediv'>
                             Sachin Saxena
                         </h3>
-                        <p style={{ fontSize: '14px', opacity: '0.5' }}>
+                        <p className='homeparadiv' style={{ fontSize: '14px', opacity: '0.5' }}>
                             MERN Stack Developer / Web Developer
                         </p>
                     </div>

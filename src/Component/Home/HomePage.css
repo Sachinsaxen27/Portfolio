@@ -46,6 +46,15 @@ h3 {
     }
 }
 
+.homeheadingdiv {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.homenamediv{
+    /* style={{ fontSize: "40px",marginBottom:"10px"}} */
+    font-size: 40px;
+    margin-bottom: 10px;
+}
 @media screen and (max-width:430px) {
     .introdiv {
         flex-direction: column-reverse;
@@ -53,7 +62,16 @@ h3 {
         height: calc(100vh - 20rem);
         text-align: center;
     }
-    .introsecond{
+
+    .introsecond {
         margin-bottom: 20px;
+    }
+
+    .homeheadingdiv {
+        margin-bottom: 10px;
+    }
+
+    .homenamediv {
+        margin-bottom: 5px;
     }
 }

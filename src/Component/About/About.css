@@ -69,11 +69,13 @@
 .divdevelopment h1 {
     margin-bottom: 10px;
 }
-.divaboutskills{
+
+.divaboutskills {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
+
 .divmaintenance {
     margin-top: 20px;
     background-image: url('../assets/maintenance.png');
@@ -97,18 +99,29 @@
         padding-left: 20px;
         padding-right: 20px;
     }
+
     .divlines {
         margin-top: 20px;
     }
+
+    .divdesign {
+        margin-bottom: 10px;
+        padding-left: 65px;
+    }
+
     .divdevelopment {
         padding-right: 0px;
-        margin-left: 40px;
-        padding-left: 10px;
+        width: fit-content;
+        margin: 0px;
+        padding-left: 65px;
+        text-align: start;
     }
-    .divaboutskills{
+
+    .divaboutskills {
         flex-direction: column;
     }
-    .divmaintenance{
-        padding-left: 50px;
+
+    .divmaintenance {
+        padding-left: 65px;
     }
 }

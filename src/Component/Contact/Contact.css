@@ -68,3 +68,11 @@ button {
     margin: 20px;
     width: 20px;
 }
+@media screen and (max-width:430px) {
+    form input{
+        width: 20rem;
+    }
+    textarea{
+        width: 20rem;
+    }
+}

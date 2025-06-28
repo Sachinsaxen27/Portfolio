@@ -65,7 +65,7 @@ p {
 @media screen and (max-width:430px) {
     .projectdetials {
         margin-top: 20px;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
         padding-left: 10px;
         padding-right: 10px;
         width: -webkit-fill-available;
