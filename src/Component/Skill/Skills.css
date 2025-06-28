@@ -86,6 +86,14 @@ p {
 
     .divskilliuse {
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 280px;
+        margin: auto;
+    }
+
+    .usingskills {
+        margin: 14px;
     }
 
     .divskillilearn {
@@ -113,10 +121,12 @@ p {
     }
 
     .divlearningskills {
-        margin: auto;
+        margin: 0px;
+        margin-left: 70px;
     }
 
     .divotherskillsknow {
-        margin: auto;
+        margin: 0px;
+        margin-left: 70px;
     }
 }

@@ -13,9 +13,11 @@
     justify-self: center;
     margin-bottom: 30px;
 }
-p{
+
+p {
     width: 31rem;
 }
+
 .divexplore {
     margin-top: 30px;
     border-left: 2px solid;
@@ -100,9 +102,14 @@ p{
         padding-right: 20px;
     }
 
+    .divsectionfordetails {
+        display: block;
+    }
+
     .divlines {
         margin-top: 20px;
     }
+
     .divdesign {
         margin-bottom: 10px;
         padding-left: 65px;
@@ -120,12 +127,13 @@ p{
         flex-direction: column;
         margin: auto;
     }
-    
+
     .divmaintenance {
-        margin: auto;
+        margin: 0px;
         padding-left: 65px;
     }
-    p{
+
+    p {
         width: 20rem;
         text-align: justify;
     }
