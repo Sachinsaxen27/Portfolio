@@ -79,7 +79,7 @@ p {
 
     .divskilliuse {
         display: flex;
-        justify-content: center;
+        margin-left: 50px;
         width: calc(100vw - 3.5rem);
     }
 
